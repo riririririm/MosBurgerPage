@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="../css/layout.css">
+	
+<style type="text/css">
+div, h,a, p, input{
+	font-family:NGB;
+}
+input[type=checkbox],input[type=radio]{
+	margin-right:10px;
+}
+hr{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #666666;
+}
+#join_hr{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid red;
+}
+.join_h{
+	display: inline;
+	font-family: NGB;
+}
+.join_h1{
+	color:red;
+	font-family: 'Lato';
+	font-weight: bold;
+}
+#aa{
+	width:892px;
+	height:166px;
+	margin: 0 auto;
+}
+
+#aa>li{
+	width:148px;
+	height:148px;
+	text-align: center;
+	vertical-align: middle;
+}
+.navbar-default{
+	height:166px;
+	padding-top: 10px;
+}
+#aa>li>a{
+	font-size:16px;
+	font-family: NGB;
+	height:148px;
+	padding-top:60px;
+}
+#aa>li.active>a{
+	background: url("../images/lnbBg_pc.gif") no-repeat 50% 50%;
+	background-size: 100%;
+	height:147px;
+	color:white;
+}
+#aa>li>line1{
+ 	padding-top:40px;
+	height: 76px;
+}
+/*-------------------content----------------------*/
+#container{
+	width:100%;
+	height:2320px;
+	margin: 0 auto;
+	margin-top:250px;
+}
+#contents{
+	background-color: white;
+	width:60%;
+	height:2100px;
+	padding-top:100px;
+	padding-left: 120px;
+	padding-right: 120px;
+	margin:0 auto;
+	margin-bottom: 105px;
+}
+#page_tit{
+	height:70px;
+	margin-bottom: 100px;
+}
+.cont_h2{
+	color:black;
+	font-family: 'NGB';
+	font-size: 24px;
+	font-weight: 600;
+}
+.cont_h2.ic{
+	padding-left: 30px;
+    background: url(../images/ic_tit.gif) no-repeat 0 50%;
+}
+.cont_h3{
+	color: #444;
+    font-size: 22px;
+    font-family: NGB;
+    margin-bottom: 14px;
+}
+.cont_right{
+	float:right;
+}
+.cont_box{
+	border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 50px 25px;
+    margin-bottom: 95px;
+}
+.agree_tb{
+	width: 100%
+}
+
+td.agree_check{
+	width:300px;
+	height: 30px;
+}
+.phone_list>li{
+	margin-bottom: 10px;
+}
+.phone_btn{
+	width:416px;
+	height:74px;
+	padding:0 26px;
+	background-color: #444444;
+	line-height: 74px;
+	text-align: center;
+	margin-top: 20px;
+	
+}
+.phone_btn>a{
+	color:white;
+	font-size:20px;
+	font-weight: 600;
+}
+
+.input_info{
+	margin-right:290px;
+	padding-bottom:35px;
+}
+.input_info>input{
+	width:91%;
+	height:58px;
+	padding: 0 4%;
+}
+
+.pos{
+	position: relative;
+}
+.btn_area{
+    position: relative;
+    text-align: center;
+}
+.btn_area > a{
+	text-decoration: none;
+}
+.btn_ok{
+	display: inline-block;
+    line-height: 74px;
+    min-width: 264px;
+    padding: 0 10px;
+    font-size: 20px;
+    background: #ed1c24;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    font-family: NGB;
+}
+.btn_ok.reset{
+    background: none;
+    color: #ed1c24;
+    border: 4px solid #ed1c24;
+    line-height: 66px;
+    min-width: 256px;
+}
+
+/*----------------footer---------------*/
+
+</style>
+</head>
+
+
+<body>
+
+<!-- -header  -->
+<div id="header">
+	<div id="header_wrap">
+		<div id="header_logo" style="margin-top:20px;">
+			<img alt="mos_logo" src="../images/logo.gif">
+		</div>
+		
+		<nav class="navbar navbar-default">
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav" id="aa">
+        			<li><a href="#">홈</a></li>
+        			<li><a href="#">로그인</a></li>
+        			<li class="active"><a href="#">회원가입</a></li>
+        			<li><a class="line1" href="#">아이디<br>비밀번호 찾기</a></li>
+        			<li><a href="#">개인정보<br>취급방침</a></li>
+        			<li><a href="#">이용약관</a></li>
+      			</ul>
+    		</div>
+		</nav>
+	</div> <!-- header_wrap -->
+</div>
+<!--  header end -->
+
+<!-- content -->
+<div id="container">
+	<div id="contents">
+		<div id="page_tit">
+			<h1 class="join_h join_h1">MOS BURGER JOIN</h1> &nbsp;
+			<p class="join_h">회원가입</p>
+			<hr id="join_hr">
+		</div>
+		<!-- end page_tit -->
+		
+		<div id="cont_inner">
+			<h2 class="cont_h2 ic">이용약관
+			<div class="cont_right">이용약관 동의 후 가입이 가능합니다.</div>
+			</h2>
+			
+			<div class="cont_box">
+				<div class="cont_agree">
+					<table class="agree_tb">
+						<tr>
+							<td class="agree_check"><a href="#">서비스 이용약관 보기</a></td>
+							<td>
+								<label>
+									<input type="checkbox" name="checkbox">서비스 이용약관 동의
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="agree_check"><a href="#">개인정보 취급 방침보기</a></td>
+							<td>
+								<label>
+									<input type="checkbox" name="checkbox">개인정보 취급 방침동의
+								</label>
+							</td>
+						</tr>
+						<tr>
+							<td class="agree_check"><a href="#">개인정보 위탁 안내 보기</a></td>
+							<td>
+							</td>
+						</tr>
+						<tr>
+							<td class="agree_check">전체약관 동의</td>
+							<td>
+								<label>
+									<input type="checkbox" name="checkbox">전체약관 동의
+								</label>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<!-- end of cont_agree -->
+			</div>
+			<!-- end of cont_box -->
+			
+			<h2 class="cont_h2 ic">본인인증
+					<div class="cont_right">휴대폰 본인 인증 후 가입이 가능합니다.</div>
+			</h2>
+			<div class="cont_box">
+				<ul class="phone_list">
+					<li>
+						모스버거 테이크아웃 서비스는 정보 통신망 법 제23조에 따라 회원 가입 시 주민등록번호를 수집하지 않습니다.
+					</li>
+					<li>
+						휴대폰 인증은 가입하시는 분 명의의 휴대폰으로만 인증이 가능합니다.
+					</li>
+				</ul>
+				<p class="phone_btn">
+					<a href="#">
+						<img src="../images/ic_phone.png"> 휴대폰 본인인증
+					</a>
+				</p>
+			</div>
+			<!-- end of 본인인증 -->
+			
+			
+			<h2 class="cont_h2 ic">정보입력
+					<div class="cont_right">휴대폰 본인 인증 후 가입이 가능합니다.</div>
+			</h2>	
+			<div class="cont_box">
+				<h3 class="cont_h3">아이디(이메일)입력</h3>
+				<p class="input_info">
+					<input type="text" placeholder="이메일입력">
+				</p>
+				
+				<h3 class="cont_h3">이름</h3>
+				<p class="input_info">
+					<input type="text" placeholder="이름">
+				</p>
+				
+				<h3 class="cont_h3">비밀번호</h3>
+				<p class="input_info">
+					<input type="password" placeholder="8-16자리 영문 숫자조합">
+					<input type="password" placeholder="비밀번호 재확인">
+				</p>
+				
+				<h3 class="cont_h3">휴대폰 번호</h3>
+				<p class="input_info">
+					<input type="text" placeholder="'-'빼고 입력 ">
+				</p>
+				
+				<h3 class="cont_h3 pos">모스버거 이벤트 소식</h3>
+				<p style="display:inline;float: right;"><input type="checkbox">이벤트 정보 수신 동의</p>
+				
+			</div>
+			
+			<p class="btn_area">
+					<a href="#" class="btn_ok">확인</a>
+					<a href="#" class="btn_ok reset">재입력</a>
+				</p>
+				
+		</div>
+		<!-- end of cont_inner(콘텐츠 내부) -->
+	</div>
+	<!-- end of contents -->
+	
+
+	<!-- footer -->
+	<footer class="container-fluid text-center">
+ 	 <div class="footer_wrap">
+  		<ul>
+  			<li class="footer_list"><a href="#">고객문의 &nbsp;&nbsp;&#47;</a></li>
+  			<li class="footer_list"><a href="#">고객설문 &nbsp;&nbsp;&#47;</a></li>
+  			<li class="footer_list"><a href="#">찾아오시는길 &nbsp;&nbsp;&#47;</a></li>
+  			<li class="footer_list"><a href="#">개인정보취급방침 &nbsp;&nbsp;&#47;</a></li>
+  			<li class="footer_list"><a href="#">서비스 이용약관</a></li>
+  		</ul>
+  	
+			주식회사 모스버거코리아 | 서울시 중구 명동 9길 37 | 대표 고재홍 | 사업자등록번호 220-88-26499 | 소비자대표번호 1688-3813 
+  		<br>
+			Copyright Since 2014 MOS BURGER KOREA Co.,Ltd.
+  	</div>
+	</footer>
+	<!-- footer end -->
+</div>
+<!--  end of container -->
+
+
+</body>
+</html>

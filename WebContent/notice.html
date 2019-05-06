@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link type="text/css" rel="stylesheet" href="./css/layout.css">
+<style type="text/css">
+*, p{
+	font-family: NGB;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.contents_wrap{
+	width:100%;
+	height:100%;
+}
+.contents{
+	width:930px;
+	height:100%;
+	margin: 0 auto;
+	
+}
+.side_nav{
+	padding-top : 50px;
+	width:200px;
+	height:200px;
+	float: left;
+	color:white;
+}
+.side_nav>ul>li{
+	list-style: none;
+}
+.side_nav>ul>li>a{
+	text-decoration: none;
+	color:#ec1f27;
+	line-height:30px;
+	font-size:14px;
+	
+	
+}
+.cont_notice{
+	background-color: white;
+	float:right;
+	width:720px;
+	height:100%;
+	padding: 35px 0 70px 30px;
+	border-left:1px solid #dbdbdb;
+}
+.board_title{
+	width:720px;
+	height: 60px;
+	clear:both;
+}
+.board_title>p{
+	font-size:24px;
+	color:black;
+	font-weight: bold;
+}
+.board_list{
+	height:770px;
+	width: 100%;
+	border-top:2px solid #e23127;
+	text-align: center;
+	color: black;
+	font-size: 12px;	
+}
+.list_title{
+	text-align: left;
+	padding-left: 10px;
+}
+
+td{
+	border-bottom:1px solid #dbdbdb;
+}
+
+.thead_title>td{
+	border-bottom: 1px solid #e23127;
+ 	height:40px;
+ 	font-size:14px;
+ 	font-weight: bold;
+}
+.board_last_list>td{
+	border-bottom: none;
+	text-align: center;
+}
+.location{
+	float:right;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+<!--  content  -->
+<div id = "main_contents">
+<!-- -header  -->
+<div id="header">
+	<div id="header_wrap">
+		<div id="header_logo">
+			<a href="./index.html"><img alt="mos_logo" src="./images/logo.gif"></a>
+		</div>
+		
+		<nav class="navbar navbar-default">
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav" id="aa">
+        			<li><a href="#">MOS BURGER</a></li>
+        			<li><a href="#">MENU</a></li>
+        			<li><a href="#">STORE</a></li>
+        			<li><a href="#">MEMBERSHIP</a></li>
+        			<li><a href="#">NEWS & EVENT</a></li>
+        			<li><a href="#">가맹점 개설 문의</a></li>
+        			<li><a href="./member/memberJoin.html" id="order_txt">ONLINE ORDER</a></li>
+      			</ul>
+    		</div>
+		</nav>
+	</div> <!-- header_wrap -->
+</div>
+<!--  header end -->
+
+<!-- contents -->
+ <div class="contents_wrap">
+ 	
+ 	<div class="contents">
+ 		<div class="side_nav">
+ 			<ul>
+ 				<li>
+ 				<a href="#" style=" font-weight: 700;">모스소식
+ 				<img alt="mos_notice" src="./images/snb_icon.gif">
+ 				</a></li>
+ 				<li><a href="#" style="color:black;">이벤트</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="cont_notice">
+ 			<div class="location">
+ 				<img src="./images/location_home.gif">
+ 				<font style="color:#7c7c7c; font-size:12px;">&gt; NEWS & EVENT &gt;</font> 
+ 				<font style="font-size:12px;"><strong>모스소식</strong></font>
+ 			</div>
+ 			<div class="board_title">
+ 				<p>모스소식</p>
+ 			</div>
+ 			
+ 			<div class="notice_table">
+ 				<table class="board_list">
+ 					<thead>
+ 						<tr class="thead_title">
+ 							<td>NO</td>
+ 							<td>제목</td>
+ 							<td>첨부</td>
+ 							<td>작성일</td>
+ 							<td>조회수</td>
+ 						</tr>
+ 					</thead>
+ 					<tbody>
+ 						<tr>
+ 							<td><img src="./images/icon_notice.gif"></td>
+ 							<td class="list_title"><a href="#">입안 가득 춤추는 싱싱함! &lt;댄싱새우버거&gt; 출시!</a></td>
+ 							<td></td>
+ 							<td>2019.05.03</td>
+ 							<td>139</td>
+ 						</tr>
+ 						<tr>
+ 							<td>101</td>
+ 							<td class="list_title"><a href="#">입안 가득 춤추는 싱싱함! &lt;댄싱새우버거&gt; 출시!</a></td>
+ 							<td></td>
+ 							<td>2019.05.03</td>
+ 							<td>139</td>
+ 						</tr>
+ 						<tr>
+ 							<td>100</td>
+ 							<td class="list_title"><a href="#">모스버거 제 1회 사업설명회에 초대합니다!</a></td>
+ 							<td></td>
+ 							<td>2019.04.02</td>
+ 							<td>209</td>
+ 						</tr>
+ 						<tr>
+ 							<td>99</td>
+ 							<td class="list_title"><a href="#">화사한 봄의 맛과 향을 담은 벚꽃 스파클링 & 레몬밤 스파클링</a></td>
+ 							<td></td>
+ 							<td>2019.03.19</td>
+ 							<td>470</td>
+ 						</tr>
+ 						<tr>
+ 							<td>98</td>
+ 							<td class="list_title"><a href="#">반숙란이 통째 들어간 소불고기 버거 &lt;스키야끼버거&gt; 출시!</a></td>
+ 							<td></td>
+ 							<td>2019.03.18</td>
+ 							<td>1121</td>
+ 						</tr>
+ 						<tr>
+ 							<td>97</td>
+ 							<td class="list_title"><a href="#">모스버거 상품 리뉴얼 및 가격 조정 안내</a></td>
+ 							<td></td>
+ 							<td>2019.03.15</td>
+ 							<td>394</td>
+ 						</tr>
+ 						<tr>
+ 							<td>96</td>
+ 							<td class="list_title"><a href="#">[3/12-3/17] 48번째 '모스의 날' 기념 모스BBQ치즈버거 40% 할인!</a></td>
+ 							<td></td>
+ 							<td>2019.03.12</td>
+ 							<td>834</td>
+ 						</tr>
+ 						<tr>
+ 							<td>95</td>
+ 							<td class="list_title"><a href="#">건대롯데점 영업 종료 안내</a></td>
+ 							<td></td>
+ 							<td>2019.02.27</td>
+ 							<td>302</td>
+ 						</tr>
+ 						<tr>
+ 							<td>94</td>
+ 							<td class="list_title"><a href="#">[2/1-2/8] 황금돼지해 '복돼지팩' 드시고 새해 복 많이 받으세요!</a></td>
+ 							<td></td>
+ 							<td>2019.02.01</td>
+ 							<td>488</td>
+ 						</tr>
+ 						<tr>
+ 							<td>93</td>
+ 							<td class="list_title"><a href="#">설날 매장 영업 안내</td>
+ 							<td></td>
+ 							<td>2019.01.25</td>
+ 							<td>256</td>
+ 						</tr>
+ 						<tr>
+ 							<td>92</td>
+ 							<td class="list_title"><a href="#">5가지 메뉴를 한 번에! 풍성하게 즐기는 '모짱박스'</a></td>
+ 							<td></td>
+ 							<td>2019.01.18</td>
+ 							<td>1552</td>
+ 						</tr>
+ 						<tr>
+ 							<td>91</td>
+ 							<td class="list_title"><a href="#">통후추! 통닭다리살! 통하는 맛! 블랙페퍼치킨버거 출시</a></td>
+ 							<td></td>
+ 							<td>2019.01.18</td>
+ 							<td>1304</td>
+ 						</tr>
+ 							<tr>
+ 							<td>90</td>
+ 							<td class="list_title"><a href="#">[1/10-1/16] 황금돼지해니까 프리미엄한 할인 돼지~! 와규치즈버거 4,900원!</a></td>
+ 							<td></td>
+ 							<td>2019.01.09</td>
+ 							<td>580</td>
+ 						</tr>
+ 							<tr>
+ 							<td>89</td>
+ 							<td class="list_title"><a href="#">호로록~ 따스함을 담은 모스 <겨울디저트> 출시!</a></td>
+ 							<td></td>
+ 							<td>2018.12.03</td>
+ 							<td>944</td>
+ 						</tr>
+ 							<tr>
+ 							<td>88</td>
+ 							<td class="list_title"><a href="#">사르르 입안에서 퍼지는 따뜻한 감칠맛! 스파이시 모스치즈버거 출시!</a></td>
+ 							<td></td>
+ 							<td>2018.11.30</td>
+ 							<td>1034</td>
+ 						</tr>
+ 							<tr>
+ 							<td>87</td>
+ 							<td class="list_title"><a href="#">[11/26(월)-11/30(금)] 겨울 추천 메뉴 새우카츠버거 40% 할인!</a></td>
+ 							<td></td>
+ 							<td>2018.11.23</td>
+ 							<td>583</td>
+ 						</tr>
+ 						<tr class="board_last_list">
+ 							<td colspan="5">
+ 								<p>
+ 									<a href="#">1</a>
+ 									<a href="#">2</a>
+ 									<a href="#">3</a>
+ 									<a href="#">4</a>
+ 									<a href="#">5</a>
+ 									<a href="#">6</a>
+ 									<a href="#">7</a>
+ 									<a href="#">&gt;&gt;</a>
+ 								</p>
+ 								<p>
+ 									<select name="select_search_mode">
+ 										<option value="tit">제목</option>
+ 										<option value="cont">내용</option>
+ 										<option value="tit_and_cont">제목+내용</option>
+ 									</select>
+ 									<input type="text">
+ 									<input type="button" value="검색" style="background-color:gray; border:none; color:white; width:66px; height:28px; font-weight:bold;">
+ 									<input type="radio" name="and_or" value="and" checked="checked">and
+ 									<input type="radio" name="and_or" value="or">or
+ 								</p>
+ 							
+ 							</td>
+ 						</tr>
+ 						
+ 					</tbody>
+ 				</table>
+ 			</div>
+ 			
+ 		</div>
+ 	</div>
+    	
+
+</div>
+<!-- content end -->
+
+
+
+
+
+<!-- footer -->
+<footer class="container-fluid text-center">
+  <div class="footer_wrap">
+  	<ul>
+  		<li class="footer_list"><a href="#">고객문의 &nbsp;&nbsp;&#47;</a></li>
+  		<li class="footer_list"><a href="#">고객설문 &nbsp;&nbsp;&#47;</a></li>
+  		<li class="footer_list"><a href="#">찾아오시는길 &nbsp;&nbsp;&#47;</a></li>
+  		<li class="footer_list"><a href="#">개인정보취급방침 &nbsp;&nbsp;&#47;</a></li>
+  		<li class="footer_list"><a href="#">서비스 이용약관</a></li>
+  	</ul>
+  	
+			주식회사 모스버거코리아 | 서울시 중구 명동 9길 37 | 대표 고재홍 | 사업자등록번호 220-88-26499 | 소비자대표번호 1688-3813 
+  	<br>
+			Copyright Since 2014 MOS BURGER KOREA Co.,Ltd.
+  </div>
+</footer>
+<!-- footer end -->
+
+
+
+
+
+</body>
+</html>
